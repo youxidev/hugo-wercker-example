@@ -1,0 +1,9 @@
+baseurl = "http://www.yren.cc/"
+languageCode = "en-us"
+title = "blog"
+theme = "hyde"
+[params]
+	disqusShortname = "yren-blog"
+	description = "一人博客"
+	themeColor = "theme-base-08" # for hyde theme
+	
