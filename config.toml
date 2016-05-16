@@ -1,9 +1,45 @@
 baseurl = "http://www.yren.cc/"
-languageCode = "en-us"
-title = "blog"
-theme = "hyde"
+relativeURLs = false
+languageCode = "zh-CN"
+title = "yren.cc"
+theme = "hugo-geo"
+disqusShortname = "yren-blog"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	#tutorial = "tutorials"
+	
 [params]
-	disqusShortname = "yren-blog"
-	description = "一人博客"
-	themeColor = "theme-base-08" # for hyde theme
+	# Render the rotating globe in the sidebar
+	showglobe = true
+ 	
+	# Google Analytics
+	#analytics = "SHORT-CODE-HERE"
+
+	# Social buttons for sidebar
+	#github = "https://github.com/alexurquhart"
+	#twitter = "https://twitter.com/alexanderurq"
+	#linkedin = "https://linkedin.com"
+	#email = "alexurquhart@gmail.com"
+	
+	# Sidebar profile picture
+	profilepic = "img/head.jpg"
+	
+	# Title/subtitle for the sidebar
+	title = "愚人"
+	subtitle = "百虑一得"
+	
+	# Nav links below the profile picture
+	[[params.navlinks]]
+	name = "关于"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "首页"
+	url = "/"
+	
+	[[params.navlinks]]
+	name = "归档"
+	url = "post/"
 	
