@@ -12,11 +12,12 @@
 </main>
 
 <div id="bottom-nav" class="text-center center-block">
-	<a href=" {{ .Site.BaseURL }}" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
+	<a href=" {{ .Site.BaseURL }}" class="btn btn-default"><i class="fa fa-home"></i> 首页</a>
 </div>
 
-{{ if .Site.DisqusShortname }}
-  {{ template "_internal/disqus.html" . }}
+{{if .Params.disqus}}
+	{{ if .Site.DisqusShortname }}
+	  {{ template "_internal/disqus.html" . }}
+	{{ end }}
 {{ end }}
-
 {{ partial "footer.html" . }}

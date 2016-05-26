@@ -1,0 +1,23 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+<article>
+	<header>
+		<h4>所有文章</a></h4>
+	</header>
+	<ul>
+		{{ range .Data.Pages }}
+		<li>
+        <div class="panel panel-default">
+        	<div class="panel-header">
+        		<h5>
+        			<a href="{{ .Permalink }}">{{ .Title }}<span class="list-date small">{{ .Date.Format "2006-01-02" }}</span></a>
+        		</h5>
+        	</div>
+        </div>
+		</li>
+		{{ end }}
+	</ul>
+</article>
+
+{{ partial "footer.html" . }}

@@ -1,10 +1,11 @@
 baseurl = "http://www.yren.cc/"
 relativeURLs = false
 languageCode = "zh-CN"
-title = "yren.cc"
-theme = "hugo-geo"
+title = "愚人博客"
+theme = "hugo-phlat-theme"
 disqusShortname = "yren-blog"
 paginate = 5
+hasCJKLanguage=true
 
 [taxonomies]
 	tag = "tags"
