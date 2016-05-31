@@ -13,7 +13,13 @@
                                 {{ $data := .Data }}
                                 {{ range $key, $value := .Data.Terms.ByCount }}
                                     <tr>
-                                        <td><a href="{{ $.Site.BaseURL}}{{$data.Plural}}/{{ $value.Name | urlize }}">{{ $value.Name }}</a></td>
+                                        <td><a href="{{ $.Site.BaseURL}}{{$data.Plural}}/{{ $value.Name | urlize }}">
+											{{ if isset $.Site.Params.terms_zh $value.Name }}
+												{{ index $.Site.Params.terms_zh $value.Name }}
+											{{ else }}
+												{{ $value.Name }}
+											{{ end }}
+										</a></td>
                                         <td>{{ $value.Count }}</td>
                                     </tr>
                                 {{ end }}
@@ -23,10 +29,8 @@
                 </div>
                 <div class="col-md-4">
                     {{ partial "widgets/sidebar/search.html" . }}
+					{{ partial "widgets/sidebar/profile.html" . }}
                     {{ partial "widgets/sidebar/recent.html" . }}
-                    {{ partial "widgets/sidebar/adsense.html" . }}
-                    {{ partial "widgets/sidebar/categories.html" . }}
-                    {{ partial "widgets/sidebar/donate.html" . }}
                 </div>
             </div>
         </div>

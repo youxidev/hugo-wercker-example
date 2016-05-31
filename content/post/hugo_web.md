@@ -1,3 +1,4 @@
+
 <!--
 +++
 css = []
@@ -7,17 +8,21 @@ disqus = true
 draft = false
 highlight = true
 scripts = []
-tags = ["技术", "hugo"]
 title = "用hugo和github、coding搭建免费博客"
+
+author = "愚人"
+categories = ["hugo", "tech"]
+tags = ["first", "article"]
+keywords = ["hugo", "gohugo", "搭建免费博客"]
 
 +++
 
 -->
 
 
-1、按照hugo自动部署步骤在github上完成<!--more-->
+1、按照hugo自动部署步骤在github上完成
 2、在coding上申请账号
-3、通过git从github的gh-pages分支取下网站，然后部署到coding上
+3、通过<!--more-->git从github的gh-pages分支取下网站，然后部署到coding上
 通过git从github的gh-pages分支取下网站，然后部署到coding上
 通过git从github的gh-pages分支取下网站，然后部署到coding上通过git从github的gh-pages分支取下网站，然后部署到coding上
 通过git从github的gh-pages分支取下网站，然后部署到coding上

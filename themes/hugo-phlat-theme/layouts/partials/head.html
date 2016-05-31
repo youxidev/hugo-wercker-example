@@ -13,12 +13,12 @@
         <meta name="alexaVerifyID" content="{{ . }}" />
     {{ end }}
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
-    <meta name="keywords" content='{{ with .Params.tags }}{{ delimit . "," }}{{ else }}{{ delimit .Site.Params.keywords "," }}{{ end }}' />
+    <meta name="keywords" content="{{ with .Keywords }}{{ delimit . "," }}{{ else }}{{ delimit .Site.Params.keywords "," }}{{ end }}" />
     {{ with .Params.author }}
         <meta name="author" content="{{ . }}" />
     {{ end }}
     {{ with .Site.Params.favicon }}
-        <link rel="icon" type="image/png" href="{{ . }}" sizes="196x196" />
+        <link rel="icon" type="image/jpg" href="{{ . }}" sizes="196x196" />
     {{ end }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />

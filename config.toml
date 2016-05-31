@@ -1,46 +1,99 @@
 baseurl = "http://www.yren.cc/"
 relativeURLs = false
 languageCode = "zh-CN"
-title = "愚人博客"
+title = "记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客"
 theme = "hugo-phlat-theme"
-disqusShortname = "yren-blog"
 paginate = 5
 hasCJKLanguage=true
 
-[taxonomies]
-	tag = "tags"
-	#tutorial = "tutorials"
-	
-[params]
-	# Render the rotating globe in the sidebar
-	showglobe = true
- 	
-	# Google Analytics
-	#analytics = "SHORT-CODE-HERE"
+[permalinks]
+    post                = "/:section/:filename/"
+    page                = "/:filename/"
 
-	# Social buttons for sidebar
-	#github = "https://github.com/alexurquhart"
-	#twitter = "https://twitter.com/alexanderurq"
-	#linkedin = "https://linkedin.com"
-	#email = "alexurquhart@gmail.com"
+[taxonomies]
+    tag                 = "tags"
+    category            = "categories"
+
+# The header menu will appear as an inline-list at the top right of the page
+[[menu.header]]
+    name                = "首页"
+    weight              = 1
+    url                 = "/"
+
+[[menu.header]]
+    name                = "android开发"
+    weight              = 2
+    url                 = "/categories/android/"	
+	
+[[menu.header]]
+    name                = "ios开发"
+    weight              = 3
+    url                 = "/categories/ios/"
+	
+[[menu.header]]
+    name                = "网站开发"
+    weight              = 4
+    url                 = "/categories/web/"	
+	
+[[menu.header]]
+    name                = "音视频开发"
+    weight              = 5
+    url                 = "/categories/av/"	
+	
+[[menu.header]]
+    name                = "随笔"
+    weight              = 6
+    url                 = "/categories/other/"
+	
+[[menu.header]]
+    name                = "关于"
+    weight              = 7
+    url                 = "/about/"
+
+# The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
+#[[menu.footer]]
+#    name                = "隐私策略"
+#    weight              = 1
+#    url                 = "/privacy-policy/"
+
+[params]
+    keywords            = ["android开发", "ios开发", "网站开发", "音视频开发"]
+    description         = "在android开发、ios开发、网站开发和音视频开发过程中经常会遇到一些技术问题，开个博客记录下来，希望能帮助遇到同样问题的开发人员。"
+    #google_analytics    = "UA-XXXXX-YY"
+    #google_adsense      = "ca-pub-XXXXXX"
+    disqus              = "yren"
+    #google_webmaster    = ""
+    #bing_webmaster      = ""
+    #alexa               = ""
+    favicon             = "img/head.jpg"
+	#share				 = ""
+	#donate				 = ""
 	
 	# Sidebar profile picture
 	profilepic = "img/head.jpg"
 	
 	# Title/subtitle for the sidebar
 	title = "愚人"
-	subtitle = "百虑一得"
-	
-	# Nav links below the profile picture
-	[[params.navlinks]]
-	name = "关于"
-	url = "about/"
-	
-	[[params.navlinks]]
-	name = "首页"
-	url = "/"
-	
-	[[params.navlinks]]
-	name = "归档"
-	url = "post/"
-	
+	subtitle = "愚人千虑，偶有一得"
+	#email = "eggsddu@qq.com"
+	[params.terms_zh]
+		android = "android开发"
+		ios 	= "ios开发"
+		web		= "网站开发"
+		av		= "音视频开发"
+		tech	= "技术"
+		article = "文章"
+		
+
+# Social media icons and links that appear in the footer
+[social]
+    #twitter             = "https://www.twitter.com/NAME_HERE"
+    #googleplus          = "https://plus.google.com/NAME_HERE"
+    #linkedin            = "https://www.linkedin.com/in/NAME_HERE"
+    #youtube             = "https://www.youtube.com/users/NAME_HERE"
+    #paypal              = "https://paypal.me/NAME_HERE"
+    #instagram           = ""
+    #reddit              = ""
+    #email               = ""
+    #pinterest           = ""
+    #wordpress           = ""

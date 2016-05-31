@@ -1,7 +1,11 @@
+
+<!--
 +++
 draft = true
 description = "description"
-author = "author"
-tags = [ "tag1", "tag2" ]
-categories = [ "category1", "category2" ]
+author = "愚人"
+tags = [ "android", "ios", "web" , "av"  ]
+categories = [ "android", "ios", "web" , "av" ]
+keywords   = ["android开发", "ios开发", "网站开发", "音视频开发"]
 +++
+-->

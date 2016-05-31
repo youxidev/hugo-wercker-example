@@ -2,10 +2,16 @@
     {{ if eq $key "categories" }}
         <div class="row">
             <div class="col-md-11 col-md-offset-1 card">
-                <h5>{{ $key | pluralize }}</h5>
+                <h5>文章类别</h5>
                 <ul class="list-unstyled posts-recent">
                     {{ range first 5 $value.ByCount }}
-                        <li><a href="{{ $.Site.BaseURL}}{{ $key | pluralize }}/{{ .Name | urlize }}">{{ .Name }}</a></li>
+                        <li><a href="{{ $.Site.BaseURL}}{{ $key | pluralize }}/{{ .Name | urlize }}">
+						{{ if isset $.Site.Params.terms_zh .Name }}
+							{{ index $.Site.Params.terms_zh .Name }}
+						{{ else }}
+							{{ .Name }}
+						{{ end }}
+						</a></li>
                     {{ end }}
                 </ul>
             </div>
