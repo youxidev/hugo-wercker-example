@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</title>
+    <link>http://www.yren.cc/</link>
+    <description>Recent content on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 17 May 2016 09:52:19 +0800</lastBuildDate>
+    <atom:link href="http://www.yren.cc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test2</title>
+      <link>http://www.yren.cc/test/test2/</link>
+      <pubDate>Tue, 17 May 2016 09:52:19 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test2/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>http://www.yren.cc/test/test1/</link>
+      <pubDate>Tue, 17 May 2016 09:51:45 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test1/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用hugo和github、coding搭建免费博客</title>
+      <link>http://www.yren.cc/post/hugo_web/</link>
+      <pubDate>Mon, 16 May 2016 18:03:55 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/post/hugo_web/</guid>
+      <description>&lt;p&gt;1、按照hugo自动部署步骤在github上完成
+2、在coding上申请账号
+3、通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上通过git从gi
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+thub的gh-pages分支取下网站，然后部署到coding上&lt;/p&gt;
+
+&lt;p&gt;c++：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int i = 0;
+
+int b = i+10;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;java：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static VideoMgr getInstance()
+{
+    return _instance;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;git：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git checkout coding-pages
+git fetch origin gh-pages
+git reset --hard origin/gh-pages 
+git pull origin gh-pages
+git push -f originc coding-pages
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://www.yren.cc/about/</link>
+      <pubDate>Mon, 16 May 2016 16:00:17 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;愚人一得:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;愚人一得&lt;/h2&gt;
+
+&lt;p&gt;愚人千虑，偶有一得&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://www.yren.cc/privacy-policy/</link>
+      <pubDate>Tue, 15 Mar 2016 18:21:33 -0700</pubDate>
+      
+      <guid>http://www.yren.cc/privacy-policy/</guid>
+      <description>&lt;p&gt;Privacy policy here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

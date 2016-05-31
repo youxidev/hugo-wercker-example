@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</title>
+    <link>http://www.yren.cc/tags/first/</link>
+    <description>Recent content in First on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 16 May 2016 18:03:55 +0800</lastBuildDate>
+    <atom:link href="http://www.yren.cc/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>用hugo和github、coding搭建免费博客</title>
+      <link>http://www.yren.cc/post/hugo_web/</link>
+      <pubDate>Mon, 16 May 2016 18:03:55 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/post/hugo_web/</guid>
+      <description>&lt;p&gt;1、按照hugo自动部署步骤在github上完成
+2、在coding上申请账号
+3、通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+通过git从github的gh-pages分支取下网站，然后部署到coding上通过git从gi
+通过git从github的gh-pages分支取下网站，然后部署到coding上
+thub的gh-pages分支取下网站，然后部署到coding上&lt;/p&gt;
+
+&lt;p&gt;c++：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;int i = 0;
+
+int b = i+10;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;java：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static VideoMgr getInstance()
+{
+    return _instance;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;git：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git checkout coding-pages
+git fetch origin gh-pages
+git reset --hard origin/gh-pages 
+git pull origin gh-pages
+git push -f originc coding-pages
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

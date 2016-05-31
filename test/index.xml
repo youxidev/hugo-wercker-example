@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</title>
+    <link>http://www.yren.cc/test/</link>
+    <description>Recent content in Tests on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 17 May 2016 09:52:19 +0800</lastBuildDate>
+    <atom:link href="http://www.yren.cc/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test2</title>
+      <link>http://www.yren.cc/test/test2/</link>
+      <pubDate>Tue, 17 May 2016 09:52:19 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test2/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>http://www.yren.cc/test/test1/</link>
+      <pubDate>Tue, 17 May 2016 09:51:45 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test1/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

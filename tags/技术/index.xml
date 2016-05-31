@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</title>
+    <link>http://www.yren.cc/tags/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on 记录android开发、ios开发、网站开发和音视频开发时遇到的问题--愚人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 17 May 2016 09:52:19 +0800</lastBuildDate>
+    <atom:link href="http://www.yren.cc/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test2</title>
+      <link>http://www.yren.cc/test/test2/</link>
+      <pubDate>Tue, 17 May 2016 09:52:19 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test2/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>http://www.yren.cc/test/test1/</link>
+      <pubDate>Tue, 17 May 2016 09:51:45 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/test/test1/</guid>
+      <description>&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>http://www.yren.cc/about/</link>
+      <pubDate>Mon, 16 May 2016 16:00:17 +0800</pubDate>
+      
+      <guid>http://www.yren.cc/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;愚人一得:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;愚人一得&lt;/h2&gt;
+
+&lt;p&gt;愚人千虑，偶有一得&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.yren.cc/</loc>
+    <lastmod>2016-05-17T09:52:19+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.yren.cc/test/test2/</loc>
+    <lastmod>2016-05-17T09:52:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.yren.cc/test/test1/</loc>
+    <lastmod>2016-05-17T09:51:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.yren.cc/post/hugo_web/</loc>
+    <lastmod>2016-05-16T18:03:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.yren.cc/about/</loc>
+    <lastmod>2016-05-16T16:00:17+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.yren.cc/privacy-policy/</loc>
+    <lastmod>2016-03-15T18:21:33-07:00</lastmod>
+  </url>
+  
+</urlset>
